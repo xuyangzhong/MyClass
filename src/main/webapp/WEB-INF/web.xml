@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>MyClass</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+    <welcome-file>login.htm</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+   	<welcome-file>error.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>com.zxy.servlet.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ExitServlet</servlet-name>
+  	<servlet-class>com.zxy.servlet.ExitServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ExitServlet</servlet-name>
+  	<url-pattern>/ExitServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>LeaveServlet</servlet-name>
+  	<servlet-class>com.zxy.servlet.LeaveServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>LeaveServlet</servlet-name>
+  	<url-pattern>/LeaveServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>AdminSubmitServlet</servlet-name>
+  	<servlet-class>com.zxy.servlet.AdminSubmitServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>AdminSubmitServlet</servlet-name>
+  	<url-pattern>/AdminSubmitServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SubmitServlet</servlet-name>
+  	<servlet-class>com.zxy.servlet.SubmitServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>SubmitServlet</servlet-name>
+  	<url-pattern>/SubmitServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+
+
+
+
