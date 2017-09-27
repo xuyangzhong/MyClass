@@ -18,7 +18,7 @@
 			com.mysql.jdbc.Driver
 		</property>
 		<!-- C3P0配置 -->
-		<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+		<property name="hibernate.connection.provider_class">org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider</property>
         <property name="hibernate.c3p0.max_size">20</property>
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.timeout">120</property>
@@ -31,11 +31,11 @@
         <property name="c3p0.maxIdleTime">25000</property>
         <property name="c3p0.idle_test_period">120</property>
 		
-		<mapping resource="com/zxy/model/Userinfo.hbm.xml" />
-		<mapping resource="com/zxy/model/Adminlogin.hbm.xml" />
-		<mapping resource="com/zxy/model/Login.hbm.xml" />
-		<mapping resource="com/zxy/model/Submitwork.hbm.xml" />
-		<mapping resource="com/zxy/model/Work.hbm.xml" />
+		<mapping resource="hbm/Userinfo.hbm.xml" />
+		<mapping resource="hbm/Adminlogin.hbm.xml" />
+		<mapping resource="hbm/Login.hbm.xml" />
+		<mapping resource="hbm/Submitwork.hbm.xml" />
+		<mapping resource="hbm/Work.hbm.xml" />
 
 	</session-factory>
 

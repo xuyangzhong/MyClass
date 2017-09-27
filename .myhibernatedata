@@ -16,6 +16,6 @@ sessionFactoryId=
 basePersistenceClass=
 genAnnotations=false
 reSettingsFile=
-configFile=/MyClass/src/main/java/com/zxy/util/hibernate.cfg.xml
+configFile=/MyClass/src/main/java/com/zxy/hibernate.cfg.xml
 createConfigFile=true
 baseDaoClass=BaseHibernateDAO

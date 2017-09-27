@@ -7,7 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e875ec7d-5f47-45ec-b313-57ffe148feb4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MyClass_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MyClass_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.myhibernatedata" afterPath="$PROJECT_DIR$/.myhibernatedata" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyClass.iml" afterPath="$PROJECT_DIR$/MyClass.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zxy/model/Adminlogin.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/hbm/Adminlogin.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zxy/model/Login.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/hbm/Login.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zxy/model/Submitwork.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/hbm/Submitwork.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zxy/model/Userinfo.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/hbm/Userinfo.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zxy/model/Work.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/hbm/Work.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,27 +43,658 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="193" column="49" lean-forward="true" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="49" />
+            <state relative-caret-position="140">
+              <caret line="136" column="30" lean-forward="true" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml">
+      <file leaf-file-name="MAVEN/MyClass:MyClass:0.0.1-SNAPSHOT" pinned="false" current-in-tab="false">
+        <entry file="uml://MAVEN/MyClass:MyClass:0.0.1-SNAPSHOT">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MAVEN</ID>
+              <OriginalElement>MyClass:MyClass:0.0.1-SNAPSHOT</OriginalElement>
+              <nodes>
+                <node x="0.0" y="1214.239975829042">MyClass:MyClass:0.0.1-SNAPSHOT</node>
+                <node x="195.5" y="1870.9320276497692">org.hibernate:hibernate-c3p0:jar:4.1.12.Final</node>
+                <node x="460.0" y="1863.1820276497692">org.hibernate:hibernate-c3p0:jar:4.1.12.Final/c3p0:c3p0:jar:0.9.1</node>
+                <node x="431.0" y="1793.1820276497692">org.hibernate:hibernate-c3p0:jar:4.1.12.Final/org.hibernate:hibernate-core:jar:4.1.12.Final</node>
+                <node x="177.0" y="591.6149758290419">mysql:mysql-connector-java:jar:5.1.6</node>
+                <node x="179.5" y="69.99999999999977">commons-fileupload:commons-fileupload:jar:1.3.1</node>
+                <node x="437.5" y="69.99999999999977">commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2</node>
+                <node x="197.0" y="1379.5060399159665">org.glassfish:bean-validator:jar:3.0-JBoss-4.0.2</node>
+                <node x="172.5" y="305.4999999999998">org.glassfish:javax.enterprise.deploy:jar:3.0.1</node>
+                <node x="213.5" y="521.6149758290419">org.glassfish:javax.jms:jar:3.0.1</node>
+                <node x="172.0" y="235.49999999999977">org.glassfish:javax.management.j2ee:jar:3.0.1</node>
+                <node x="449.0" y="235.49999999999977">org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1</node>
+                <node x="677.0" y="242.99999999999977">org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1/org.glassfish:javax.annotation:jar:3.0.1</node>
+                <node x="190.5" y="1074.239975829042">org.eclipse.persistence:javax.persistence:jar:2.0.0</node>
+                <node x="432.5" y="139.99999999999977">org.glassfish:javax.resource:jar:3.0.1</node>
+                <node x="676.0" y="147.49999999999977">org.glassfish:javax.resource:jar:3.0.1/org.glassfish:javax.transaction:jar:3.0.1</node>
+                <node x="160.0" y="1449.5060399159665">org.glassfish:javax.security.auth.message:jar:3.0.1</node>
+                <node x="189.0" y="934.2399758290419">org.glassfish:javax.security.jacc:jar:3.0.1</node>
+                <node x="439.0" y="921.4899758290419">org.glassfish:javax.servlet:jar:3.0.1</node>
+                <node x="194.5" y="1144.239975829042">org.glassfish:javax.servlet.jsp:jar:3.0.1</node>
+                <node x="185.0" y="165.49999999999977">org.glassfish:javax.servlet.jsp.jstl:jar:3.0.1</node>
+                <node x="201.0" y="1004.2399758290419">javax.xml.bind:jaxb-api-osgi:jar:2.2.1</node>
+                <node x="210.5" y="1927.4320276497692">javax.ws.rs:jsr311-api:jar:1.1.1</node>
+                <node x="216.5" y="1214.239975829042">org.glassfish.web:jstl-impl:jar:1.2</node>
+                <node x="693.5" y="1259.459476935936">org.glassfish.web:jstl-impl:jar:1.2/javax.servlet:servlet-api:jar:2.5</node>
+                <node x="704.0" y="1189.459476935936">org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp:jsp-api:jar:2.1</node>
+                <node x="454.5" y="1276.739975829042">org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2</node>
+                <node x="227.5" y="375.4999999999998">javax.mail:mail:jar:1.4.3</node>
+                <node x="446.5" y="375.4999999999998">javax.mail:mail:jar:1.4.3/javax.activation:activation:jar:1.1</node>
+                <node x="178.0" y="1978.4320276497692">javax.xml:webservices-api-osgi:jar:2.0.1</node>
+                <node x="188.5" y="661.6149758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3</node>
+                <node x="951.5" y="806.0180802159568">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1</node>
+                <node x="1124.0" y="723.2680802159568">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/org.jboss.interceptor:jboss-interceptor-api:jar:1.1</node>
+                <node x="1156.5" y="556.8649758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/javax.annotation:jsr250-api:jar:1.0</node>
+                <node x="699.0" y="769.2399758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-api:jar:1.0-SP1</node>
+                <node x="445.0" y="595.695556044999">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3</node>
+                <node x="701.5" y="681.1430802159568">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10</node>
+                <node x="948.5" y="705.3649758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10/org.slf4j:slf4j-api:jar:1.5.10</node>
+                <node x="941.5" y="635.3649758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10/ch.qos.cal10n:cal10n-api:jar:0.7.2</node>
+                <node x="701.0" y="574.8649758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-api:jar:1.6.1</node>
+                <node x="699.5" y="839.2399758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-spi:jar:1.0-SP1</node>
+                <node x="947.5" y="488.02197693593587">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javassist:javassist:jar:3.11.0.GA</node>
+                <node x="670.0" y="514.6149758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/com.google.collections:google-collections:jar:1.0</node>
+                <node x="1154.5" y="870.9374999999998">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.inject:javax.inject:jar:1</node>
+                <node x="674.0" y="444.6149758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11</node>
+                <node x="948.5" y="406.52197693593587">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11/org.slf4j:slf4j-api:jar:1.5.6</node>
+                <node x="185.0" y="1284.239975829042">org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.1</node>
+                <node x="711.0" y="1331.989975829042">antlr:antlr:jar:2.7.7</node>
+                <node x="216.5" y="0.0">org.slf4j:slf4j-api:jar:1.6.1</node>
+                <node x="705.5" y="1455.8949608069033">dom4j:dom4j:jar:1.6.1</node>
+                <node x="947.0" y="1455.8949608069033">dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+                <node x="431.0" y="1603.350574907383">org.hibernate:hibernate-core:jar:4.1.4.Final</node>
+                <node x="629.0" y="1752.196363626095">org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final</node>
+                <node x="931.0" y="1752.196363626095">org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
+                <node x="662.5" y="1665.8949608069033">org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
+                <node x="700.0" y="1525.8949608069033">org.javassist:javassist:jar:3.15.0-GA</node>
+                <node x="683.5" y="1854.2856493403806">org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
+                <node x="635.5" y="1595.8949608069033">org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final</node>
+                <node x="168.0" y="1628.850574907383">org.hibernate:hibernate-entitymanager:jar:4.1.4.Final</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-api:jar:1.6.1">
+                  <point x="45.0" y="-1.5" />
+                  <point x="549.0" y="609.195556044999" />
+                  <point x="629.0" y="589.8649758290419" />
+                  <point x="-39.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3">
+                  <point x="40.0" y="-5.8064516129031745" />
+                  <point x="160.0" y="676.6149758290419" />
+                  <point x="-67.0" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+                  <point x="59.0" y="8.571428571428669" />
+                  <point x="-111.0" y="-10.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="dom4j:dom4j:jar:1.6.1">
+                  <point x="87.5" y="-12.85714285714289" />
+                  <point x="431.0" y="1502.3113394551372" />
+                  <point x="549.0" y="1502.3113394551372" />
+                  <point x="629.0" y="1470.8949608069033" />
+                  <point x="-34.5" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.javassist:javassist:jar:3.15.0-GA">
+                  <point x="59.0" y="-4.285714285714221" />
+                  <point x="629.0" y="1550.8949608069033" />
+                  <point x="-40.0" y="10.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-spi:jar:1.0-SP1">
+                  <point x="67.0" y="5.625" />
+                  <point x="351.0" y="682.2399758290419" />
+                  <point x="431.0" y="861.7399758290419" />
+                  <point x="-40.5" y="7.5" />
+                </edge>
+                <edge source="org.glassfish.web:jstl-impl:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2">
+                  <point x="39.0" y="10.0" />
+                  <point x="351.0" y="1239.239975829042" />
+                  <point x="431.0" y="1284.239975829042" />
+                  <point x="-35.5" y="-7.5" />
+                </edge>
+                <edge source="org.glassfish:javax.management.j2ee:jar:3.0.1" target="org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1">
+                  <point x="83.5" y="-0.0" />
+                  <point x="-41.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.resource:jar:3.0.1">
+                  <point x="40.0" y="-12.58064516129025" />
+                  <point x="160.0" y="154.99999999999977" />
+                  <point x="-57.5" y="-0.0" />
+                </edge>
+                <edge source="org.glassfish:javax.security.jacc:jar:3.0.1" target="org.glassfish:javax.servlet:jar:3.0.1">
+                  <point x="66.5" y="-0.0" />
+                  <point x="351.0" y="949.2399758290419" />
+                  <point x="-51.0" y="7.5" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.security.jacc:jar:3.0.1">
+                  <point x="40.0" y="-3.870967741935374" />
+                  <point x="160.0" y="949.2399758290419" />
+                  <point x="-66.5" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/com.google.collections:google-collections:jar:1.0">
+                  <point x="67.0" y="-5.625" />
+                  <point x="351.0" y="670.9899758290419" />
+                  <point x="431.0" y="522.1149758290419" />
+                  <point x="-70.0" y="-7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10">
+                  <point x="45.0" y="4.5" />
+                  <point x="549.0" y="615.195556044999" />
+                  <point x="629.0" y="696.1430802159568" />
+                  <point x="-38.5" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+                  <point x="40.0" y="9.677419354838776" />
+                  <point x="160.0" y="1782.6820276497692" />
+                  <point x="549.0" y="1782.6820276497692" />
+                  <point x="629.0" y="1690.8949608069033" />
+                  <point x="-77.5" y="10.0" />
+                </edge>
+                <edge source="javax.mail:mail:jar:1.4.3" target="javax.mail:mail:jar:1.4.3/javax.activation:activation:jar:1.1">
+                  <point x="28.0" y="-0.0" />
+                  <point x="-43.5" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-c3p0:jar:4.1.12.Final" target="org.hibernate:hibernate-c3p0:jar:4.1.12.Final/org.hibernate:hibernate-core:jar:4.1.12.Final">
+                  <point x="60.0" y="-10.0" />
+                  <point x="351.0" y="1875.9320276497692" />
+                  <point x="-59.0" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11">
+                  <point x="45.0" y="-13.5" />
+                  <point x="549.0" y="597.195556044999" />
+                  <point x="629.0" y="467.1149758290419" />
+                  <point x="-66.0" y="7.5" />
+                </edge>
+                <edge source="dom4j:dom4j:jar:1.6.1" target="dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2">
+                  <point x="34.5" y="-0.0" />
+                  <point x="-40.5" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final" target="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2">
+                  <point x="111.0" y="-0.0" />
+                  <point x="-56.5" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="antlr:antlr:jar:2.7.7">
+                  <point x="40.0" y="1.9354838709678006" />
+                  <point x="160.0" y="1339.489975829042" />
+                  <point x="-29.0" y="-7.5" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.jms:jar:3.0.1">
+                  <point x="40.0" y="-7.741935483870975" />
+                  <point x="160.0" y="536.6149758290419" />
+                  <point x="-42.0" y="-0.0" />
+                </edge>
+                <edge source="org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1" target="org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1/org.glassfish:javax.annotation:jar:3.0.1">
+                  <point x="41.0" y="7.5" />
+                  <point x="-63.0" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+                  <point x="87.5" y="12.85714285714289" />
+                  <point x="431.0" y="1770.8605990783408" />
+                  <point x="549.0" y="1770.8605990783408" />
+                  <point x="629.0" y="1865.5356493403806" />
+                  <point x="-56.5" y="-3.75" />
+                </edge>
+                <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+                  <point x="59.0" y="-0.0" />
+                  <point x="-104.5" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-spi:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1">
+                  <point x="40.5" y="-0.0" />
+                  <point x="851.0" y="854.2399758290419" />
+                  <point x="931.0" y="824.7680802159568" />
+                  <point x="-36.0" y="3.75" />
+                </edge>
+                <edge source="org.hibernate:hibernate-c3p0:jar:4.1.12.Final" target="org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+                  <point x="60.0" y="10.0" />
+                  <point x="351.0" y="1895.9320276497692" />
+                  <point x="431.0" y="1903.6820276497692" />
+                  <point x="549.0" y="1903.6820276497692" />
+                  <point x="629.0" y="1873.0356493403806" />
+                  <point x="-56.5" y="3.75" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+                  <point x="40.0" y="6.774193548387075" />
+                  <point x="160.0" y="1490.0060399159665" />
+                  <point x="549.0" y="1490.0060399159665" />
+                  <point x="-104.5" y="-10.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-c3p0:jar:4.1.12.Final" target="org.hibernate:hibernate-c3p0:jar:4.1.12.Final/c3p0:c3p0:jar:0.9.1">
+                  <point x="60.0" y="-0.0" />
+                  <point x="351.0" y="1885.9320276497692" />
+                  <point x="431.0" y="1878.1820276497692" />
+                  <point x="-30.0" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="antlr:antlr:jar:2.7.7">
+                  <point x="59.0" y="-12.85714285714289" />
+                  <point x="629.0" y="1354.489975829042" />
+                  <point x="-29.0" y="7.5" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.6">
+                  <point x="40.0" y="-6.774193548387075" />
+                  <point x="160.0" y="606.6149758290419" />
+                  <point x="-78.5" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final">
+                  <point x="40.0" y="8.709677419354875" />
+                  <point x="-87.5" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="dom4j:dom4j:jar:1.6.1">
+                  <point x="59.0" y="-8.571428571428669" />
+                  <point x="629.0" y="1480.8949608069033" />
+                  <point x="-34.5" y="10.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1">
+                  <point x="67.0" y="9.375" />
+                  <point x="351.0" y="685.9899758290419" />
+                  <point x="431.0" y="889.6874999999998" />
+                  <point x="851.0" y="889.6874999999998" />
+                  <point x="931.0" y="832.2680802159568" />
+                  <point x="-36.0" y="11.25" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-api:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1">
+                  <point x="41.0" y="-0.0" />
+                  <point x="851.0" y="784.2399758290419" />
+                  <point x="931.0" y="817.2680802159568" />
+                  <point x="-36.0" y="-3.75" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="javax.ws.rs:jsr311-api:jar:1.1.1">
+                  <point x="40.0" y="12.58064516129025" />
+                  <point x="160.0" y="1942.4320276497692" />
+                  <point x="-45.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.security.auth.message:jar:3.0.1">
+                  <point x="40.0" y="5.8064516129031745" />
+                  <point x="-95.5" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.6.1">
+                  <point x="40.0" y="-14.51612903225805" />
+                  <point x="160.0" y="15.0" />
+                  <point x="-39.0" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+                  <point x="59.0" y="4.285714285714221" />
+                  <point x="629.0" y="1670.8949608069033" />
+                  <point x="-77.5" y="-10.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+                  <point x="40.0" y="13.54838709677415" />
+                  <point x="160.0" y="1967.9320276497692" />
+                  <point x="549.0" y="1967.9320276497692" />
+                  <point x="629.0" y="1880.5356493403806" />
+                  <point x="-56.5" y="11.25" />
+                </edge>
+                <edge source="org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1" target="org.glassfish:javax.resource:jar:3.0.1/org.glassfish:javax.transaction:jar:3.0.1">
+                  <point x="41.0" y="-7.5" />
+                  <point x="549.0" y="242.99999999999977" />
+                  <point x="629.0" y="169.99999999999977" />
+                  <point x="-64.0" y="7.5" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="dom4j:dom4j:jar:1.6.1">
+                  <point x="40.0" y="2.903225806451701" />
+                  <point x="160.0" y="1368.0382979804829" />
+                  <point x="549.0" y="1368.0382979804829" />
+                  <point x="629.0" y="1460.8949608069033" />
+                  <point x="-34.5" y="-10.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.servlet.jsp:jar:3.0.1">
+                  <point x="40.0" y="-0.9677419354839003" />
+                  <point x="160.0" y="1159.239975829042" />
+                  <point x="-61.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.eclipse.persistence:javax.persistence:jar:2.0.0">
+                  <point x="40.0" y="-1.9354838709678006" />
+                  <point x="160.0" y="1089.239975829042" />
+                  <point x="-65.0" y="-0.0" />
+                </edge>
+                <edge source="org.glassfish.web:jstl-impl:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet:servlet-api:jar:2.5">
+                  <point x="39.0" y="-0.0" />
+                  <point x="549.0" y="1229.239975829042" />
+                  <point x="629.0" y="1266.959476935936" />
+                  <point x="-46.5" y="-7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11/org.slf4j:slf4j-api:jar:1.5.6">
+                  <point x="66.0" y="-7.5" />
+                  <point x="851.0" y="452.1149758290419" />
+                  <point x="931.0" y="421.52197693593587" />
+                  <point x="-39.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate:hibernate-c3p0:jar:4.1.12.Final">
+                  <point x="40.0" y="10.645161290322676" />
+                  <point x="160.0" y="1885.9320276497692" />
+                  <point x="-60.0" y="-0.0" />
+                </edge>
+                <edge source="commons-fileupload:commons-fileupload:jar:1.3.1" target="commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2">
+                  <point x="76.0" y="-0.0" />
+                  <point x="-52.5" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-spi:jar:1.0-SP1">
+                  <point x="45.0" y="13.5" />
+                  <point x="549.0" y="624.195556044999" />
+                  <point x="629.0" y="846.7399758290419" />
+                  <point x="-40.5" y="-7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/org.jboss.interceptor:jboss-interceptor-api:jar:1.1">
+                  <point x="45.0" y="1.5" />
+                  <point x="549.0" y="612.195556044999" />
+                  <point x="629.0" y="624.8649758290419" />
+                  <point x="1044.0" y="624.8649758290419" />
+                  <point x="-77.5" y="-7.5" />
+                </edge>
+                <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.hibernate:hibernate-core:jar:4.1.4.Final">
+                  <point x="87.5" y="-4.285714285714221" />
+                  <point x="-59.0" y="7.5" />
+                </edge>
+                <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+                  <point x="87.5" y="4.285714285714221" />
+                  <point x="431.0" y="1676.109246521189" />
+                  <point x="549.0" y="1676.109246521189" />
+                  <point x="629.0" y="1680.8949608069033" />
+                  <point x="-77.5" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.javassist:javassist:jar:3.15.0-GA">
+                  <point x="40.0" y="3.870967741935374" />
+                  <point x="160.0" y="1369.0060399159665" />
+                  <point x="549.0" y="1369.0060399159665" />
+                  <point x="629.0" y="1530.8949608069033" />
+                  <point x="-40.0" y="-10.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/javax.annotation:jsr250-api:jar:1.0">
+                  <point x="36.0" y="-10.0" />
+                  <point x="1044.0" y="811.0180802159568" />
+                  <point x="1124.0" y="579.3649758290419" />
+                  <point x="-45.0" y="7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11">
+                  <point x="67.0" y="-9.375" />
+                  <point x="351.0" y="667.2399758290419" />
+                  <point x="431.0" y="452.1149758290419" />
+                  <point x="-66.0" y="-7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javassist:javassist:jar:3.11.0.GA">
+                  <point x="66.0" y="7.5" />
+                  <point x="851.0" y="467.1149758290419" />
+                  <point x="931.0" y="503.02197693593587" />
+                  <point x="-40.0" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-api:jar:1.0-SP1">
+                  <point x="67.0" y="1.875" />
+                  <point x="351.0" y="678.4899758290419" />
+                  <point x="431.0" y="791.7399758290419" />
+                  <point x="-41.0" y="7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1">
+                  <point x="45.0" y="7.5" />
+                  <point x="549.0" y="618.195556044999" />
+                  <point x="629.0" y="730.195556044999" />
+                  <point x="851.0" y="730.195556044999" />
+                  <point x="931.0" y="809.7680802159568" />
+                  <point x="-36.0" y="-11.25" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+                  <point x="40.0" y="11.612903225806349" />
+                  <point x="160.0" y="1916.9320276497692" />
+                  <point x="549.0" y="1916.9320276497692" />
+                  <point x="-111.0" y="10.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="javax.xml.bind:jaxb-api-osgi:jar:2.2.1">
+                  <point x="40.0" y="-2.903225806451701" />
+                  <point x="160.0" y="1019.2399758290419" />
+                  <point x="-54.5" y="-0.0" />
+                </edge>
+                <edge source="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet:servlet-api:jar:2.5">
+                  <point x="35.5" y="7.5" />
+                  <point x="549.0" y="1299.239975829042" />
+                  <point x="629.0" y="1281.959476935936" />
+                  <point x="-46.5" y="7.5" />
+                </edge>
+                <edge source="org.glassfish:javax.resource:jar:3.0.1" target="org.glassfish:javax.resource:jar:3.0.1/org.glassfish:javax.transaction:jar:3.0.1">
+                  <point x="57.5" y="-0.0" />
+                  <point x="-64.0" y="-7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javassist:javassist:jar:3.11.0.GA">
+                  <point x="67.0" y="-13.125" />
+                  <point x="351.0" y="663.4899758290419" />
+                  <point x="431.0" y="434.1149758290419" />
+                  <point x="851.0" y="434.1149758290419" />
+                  <point x="931.0" y="493.02197693593587" />
+                  <point x="-40.0" y="-10.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.1">
+                  <point x="40.0" y="-13.54838709677415" />
+                  <point x="160.0" y="84.99999999999977" />
+                  <point x="-76.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.1">
+                  <point x="40.0" y="0.9677419354839003" />
+                  <point x="160.0" y="1299.239975829042" />
+                  <point x="-70.5" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.enterprise.deploy:jar:3.0.1">
+                  <point x="40.0" y="-9.677419354838776" />
+                  <point x="160.0" y="320.4999999999998" />
+                  <point x="-83.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.servlet:jar:3.0.1">
+                  <point x="40.0" y="-4.838709677419274" />
+                  <point x="160.0" y="923.7399758290419" />
+                  <point x="351.0" y="923.7399758290419" />
+                  <point x="-51.0" y="-7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/javax.annotation:jsr250-api:jar:1.0">
+                  <point x="45.0" y="-4.5" />
+                  <point x="549.0" y="606.195556044999" />
+                  <point x="629.0" y="564.3649758290419" />
+                  <point x="-45.0" y="-7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10/ch.qos.cal10n:cal10n-api:jar:0.7.2">
+                  <point x="38.5" y="-7.5" />
+                  <point x="851.0" y="688.6430802159568" />
+                  <point x="-46.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.management.j2ee:jar:3.0.1">
+                  <point x="40.0" y="-10.645161290322676" />
+                  <point x="-83.5" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+                  <point x="59.0" y="12.85714285714289" />
+                  <point x="629.0" y="1858.0356493403806" />
+                  <point x="-56.5" y="-11.25" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10/org.slf4j:slf4j-api:jar:1.5.10">
+                  <point x="38.5" y="7.5" />
+                  <point x="851.0" y="703.6430802159568" />
+                  <point x="931.0" y="720.3649758290419" />
+                  <point x="-39.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.servlet.jsp.jstl:jar:3.0.1">
+                  <point x="40.0" y="-11.612903225806349" />
+                  <point x="160.0" y="180.49999999999977" />
+                  <point x="-70.5" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javassist:javassist:jar:3.11.0.GA">
+                  <point x="45.0" y="-7.5" />
+                  <point x="549.0" y="603.195556044999" />
+                  <point x="629.0" y="555.1149758290419" />
+                  <point x="851.0" y="555.1149758290419" />
+                  <point x="931.0" y="513.0219769359359" />
+                  <point x="-40.0" y="10.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="javax.mail:mail:jar:1.4.3">
+                  <point x="40.0" y="-8.709677419354875" />
+                  <point x="160.0" y="390.4999999999998" />
+                  <point x="-28.0" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-api:jar:1.0-SP1">
+                  <point x="45.0" y="10.5" />
+                  <point x="549.0" y="621.195556044999" />
+                  <point x="629.0" y="776.7399758290419" />
+                  <point x="-41.0" y="-7.5" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate:hibernate-core:jar:4.1.4.Final">
+                  <point x="40.0" y="7.741935483870975" />
+                  <point x="160.0" y="1595.6449608069033" />
+                  <point x="351.0" y="1595.6449608069033" />
+                  <point x="-59.0" y="-7.5" />
+                </edge>
+                <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+                  <point x="87.5" y="-0.0" />
+                  <point x="431.0" y="1656.5927419354837" />
+                  <point x="549.0" y="1656.5927419354837" />
+                  <point x="-104.5" y="10.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+                  <point x="87.5" y="8.571428571428669" />
+                  <point x="431.0" y="1735.5927419354837" />
+                  <point x="549.0" y="1735.5927419354837" />
+                  <point x="-111.0" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.inject:javax.inject:jar:1">
+                  <point x="36.0" y="10.0" />
+                  <point x="1044.0" y="831.0180802159568" />
+                  <point x="1124.0" y="878.4374999999998" />
+                  <point x="-47.0" y="-7.5" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:bean-validator:jar:3.0-JBoss-4.0.2">
+                  <point x="40.0" y="4.838709677419274" />
+                  <point x="160.0" y="1394.5060399159665" />
+                  <point x="-58.5" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="javax.xml:webservices-api-osgi:jar:2.0.1">
+                  <point x="40.0" y="14.51612903225805" />
+                  <point x="160.0" y="1993.4320276497692" />
+                  <point x="-77.5" y="-0.0" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.inject:javax.inject:jar:1">
+                  <point x="67.0" y="13.125" />
+                  <point x="351.0" y="689.7399758290419" />
+                  <point x="431.0" y="910.9899758290419" />
+                  <point x="1044.0" y="910.9899758290419" />
+                  <point x="1124.0" y="893.4374999999998" />
+                  <point x="-47.0" y="7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3">
+                  <point x="67.0" y="-1.875" />
+                  <point x="351.0" y="674.7399758290419" />
+                  <point x="431.0" y="610.695556044999" />
+                  <point x="-45.0" y="-0.0" />
+                </edge>
+                <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish.web:jstl-impl:jar:1.2">
+                  <point x="40.0" y="-0.0" />
+                  <point x="-39.0" y="-0.0" />
+                </edge>
+                <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.javassist:javassist:jar:3.15.0-GA">
+                  <point x="87.5" y="-8.571428571428669" />
+                  <point x="431.0" y="1572.3113394551372" />
+                  <point x="549.0" y="1572.3113394551372" />
+                  <point x="629.0" y="1540.8949608069033" />
+                  <point x="-40.0" y="-0.0" />
+                </edge>
+                <edge source="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp:jsp-api:jar:2.1">
+                  <point x="35.5" y="-7.5" />
+                  <point x="549.0" y="1284.239975829042" />
+                  <point x="629.0" y="1211.959476935936" />
+                  <point x="-36.0" y="7.5" />
+                </edge>
+                <edge source="org.glassfish.web:jstl-impl:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp:jsp-api:jar:2.1">
+                  <point x="39.0" y="-10.0" />
+                  <point x="351.0" y="1219.239975829042" />
+                  <point x="431.0" y="1196.959476935936" />
+                  <point x="-36.0" y="-7.5" />
+                </edge>
+                <edge source="org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.1" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2">
+                  <point x="70.5" y="-0.0" />
+                  <point x="-35.5" y="7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/com.google.collections:google-collections:jar:1.0">
+                  <point x="45.0" y="-10.5" />
+                  <point x="549.0" y="600.195556044999" />
+                  <point x="629.0" y="537.1149758290419" />
+                  <point x="-70.0" y="7.5" />
+                </edge>
+                <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/org.jboss.interceptor:jboss-interceptor-api:jar:1.1">
+                  <point x="36.0" y="-0.0" />
+                  <point x="1044.0" y="821.0180802159568" />
+                  <point x="-77.5" y="7.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.3042284459088413" x="-27.7617328519857" y="778.8808664259927" />
+              <SelectedNodes>
+                <node>org.hibernate:hibernate-entitymanager:jar:4.1.4.Final</node>
+              </SelectedNodes>
+              <Categories />
+              <VISIBILITY>All</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="196">
+              <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maven__antlr_antlr_2_7_7.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Userinfo.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hbm/Userinfo.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigHelper.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/internal/util/ConfigHelper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hibernate</find>
+      <find>hibernate.cfg</find>
+      <find>getResourceAsStream</find>
+      <find>c3p0</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +708,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/.classpath" />
+        <option value="$PROJECT_DIR$/.myhibernatedata" />
+        <option value="$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/internal/util/ConfigHelper.class" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -85,7 +734,9 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -118,35 +769,8 @@
             <path>
               <item name="MyClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,6 +783,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workplace\MyClass\src\main\resources\hbm" />
+      <recent name="E:\workplace\MyClass\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,16 +974,15 @@
       <workItem from="1504237680932" duration="940000" />
       <workItem from="1504524520424" duration="254000" />
       <workItem from="1506475495589" duration="188000" />
-      <workItem from="1506475919728" duration="456000" />
+      <workItem from="1506475919728" duration="4122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1838000" />
+    <option name="totallyTimeSpent" value="5504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -369,17 +1002,17 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3970346" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -420,17 +1053,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -447,22 +1075,812 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://MAVEN/MyClass:MyClass:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>MyClass:MyClass:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="1214.239975829042">MyClass:MyClass:0.0.1-SNAPSHOT</node>
+            <node x="195.5" y="1870.9320276497692">org.hibernate:hibernate-c3p0:jar:4.1.12.Final</node>
+            <node x="460.0" y="1863.1820276497692">org.hibernate:hibernate-c3p0:jar:4.1.12.Final/c3p0:c3p0:jar:0.9.1</node>
+            <node x="431.0" y="1793.1820276497692">org.hibernate:hibernate-c3p0:jar:4.1.12.Final/org.hibernate:hibernate-core:jar:4.1.12.Final</node>
+            <node x="177.0" y="591.6149758290419">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="179.5" y="69.99999999999977">commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="437.5" y="69.99999999999977">commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2</node>
+            <node x="197.0" y="1379.5060399159665">org.glassfish:bean-validator:jar:3.0-JBoss-4.0.2</node>
+            <node x="172.5" y="305.4999999999998">org.glassfish:javax.enterprise.deploy:jar:3.0.1</node>
+            <node x="213.5" y="521.6149758290419">org.glassfish:javax.jms:jar:3.0.1</node>
+            <node x="172.0" y="235.49999999999977">org.glassfish:javax.management.j2ee:jar:3.0.1</node>
+            <node x="449.0" y="235.49999999999977">org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1</node>
+            <node x="677.0" y="242.99999999999977">org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1/org.glassfish:javax.annotation:jar:3.0.1</node>
+            <node x="190.5" y="1074.239975829042">org.eclipse.persistence:javax.persistence:jar:2.0.0</node>
+            <node x="432.5" y="139.99999999999977">org.glassfish:javax.resource:jar:3.0.1</node>
+            <node x="676.0" y="147.49999999999977">org.glassfish:javax.resource:jar:3.0.1/org.glassfish:javax.transaction:jar:3.0.1</node>
+            <node x="160.0" y="1449.5060399159665">org.glassfish:javax.security.auth.message:jar:3.0.1</node>
+            <node x="189.0" y="934.2399758290419">org.glassfish:javax.security.jacc:jar:3.0.1</node>
+            <node x="439.0" y="921.4899758290419">org.glassfish:javax.servlet:jar:3.0.1</node>
+            <node x="194.5" y="1144.239975829042">org.glassfish:javax.servlet.jsp:jar:3.0.1</node>
+            <node x="185.0" y="165.49999999999977">org.glassfish:javax.servlet.jsp.jstl:jar:3.0.1</node>
+            <node x="201.0" y="1004.2399758290419">javax.xml.bind:jaxb-api-osgi:jar:2.2.1</node>
+            <node x="210.5" y="1927.4320276497692">javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="216.5" y="1214.239975829042">org.glassfish.web:jstl-impl:jar:1.2</node>
+            <node x="693.5" y="1259.459476935936">org.glassfish.web:jstl-impl:jar:1.2/javax.servlet:servlet-api:jar:2.5</node>
+            <node x="704.0" y="1189.459476935936">org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp:jsp-api:jar:2.1</node>
+            <node x="454.5" y="1276.739975829042">org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2</node>
+            <node x="227.5" y="375.4999999999998">javax.mail:mail:jar:1.4.3</node>
+            <node x="446.5" y="375.4999999999998">javax.mail:mail:jar:1.4.3/javax.activation:activation:jar:1.1</node>
+            <node x="178.0" y="1978.4320276497692">javax.xml:webservices-api-osgi:jar:2.0.1</node>
+            <node x="188.5" y="661.6149758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3</node>
+            <node x="951.5" y="806.0180802159568">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1</node>
+            <node x="1124.0" y="723.2680802159568">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/org.jboss.interceptor:jboss-interceptor-api:jar:1.1</node>
+            <node x="1156.5" y="556.8649758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/javax.annotation:jsr250-api:jar:1.0</node>
+            <node x="699.0" y="769.2399758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-api:jar:1.0-SP1</node>
+            <node x="445.0" y="595.695556044999">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3</node>
+            <node x="701.5" y="681.1430802159568">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10</node>
+            <node x="948.5" y="705.3649758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10/org.slf4j:slf4j-api:jar:1.5.10</node>
+            <node x="941.5" y="635.3649758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10/ch.qos.cal10n:cal10n-api:jar:0.7.2</node>
+            <node x="701.0" y="574.8649758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="699.5" y="839.2399758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-spi:jar:1.0-SP1</node>
+            <node x="947.5" y="488.02197693593587">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javassist:javassist:jar:3.11.0.GA</node>
+            <node x="670.0" y="514.6149758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/com.google.collections:google-collections:jar:1.0</node>
+            <node x="1154.5" y="870.9374999999998">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.inject:javax.inject:jar:1</node>
+            <node x="674.0" y="444.6149758290419">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11</node>
+            <node x="948.5" y="406.52197693593587">org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11/org.slf4j:slf4j-api:jar:1.5.6</node>
+            <node x="185.0" y="1284.239975829042">org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.1</node>
+            <node x="711.0" y="1331.989975829042">antlr:antlr:jar:2.7.7</node>
+            <node x="216.5" y="0.0">org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="705.5" y="1455.8949608069033">dom4j:dom4j:jar:1.6.1</node>
+            <node x="947.0" y="1455.8949608069033">dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="431.0" y="1603.350574907383">org.hibernate:hibernate-core:jar:4.1.4.Final</node>
+            <node x="629.0" y="1752.196363626095">org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final</node>
+            <node x="931.0" y="1752.196363626095">org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
+            <node x="662.5" y="1665.8949608069033">org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
+            <node x="700.0" y="1525.8949608069033">org.javassist:javassist:jar:3.15.0-GA</node>
+            <node x="683.5" y="1854.2856493403806">org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
+            <node x="635.5" y="1595.8949608069033">org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final</node>
+            <node x="168.0" y="1628.850574907383">org.hibernate:hibernate-entitymanager:jar:4.1.4.Final</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="45.0" y="-1.5" />
+              <point x="549.0" y="609.195556044999" />
+              <point x="629.0" y="589.8649758290419" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3">
+              <point x="40.0" y="-5.8064516129031745" />
+              <point x="160.0" y="676.6149758290419" />
+              <point x="-67.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+              <point x="59.0" y="8.571428571428669" />
+              <point x="-111.0" y="-10.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="dom4j:dom4j:jar:1.6.1">
+              <point x="87.5" y="-12.85714285714289" />
+              <point x="431.0" y="1502.3113394551372" />
+              <point x="549.0" y="1502.3113394551372" />
+              <point x="629.0" y="1470.8949608069033" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.javassist:javassist:jar:3.15.0-GA">
+              <point x="59.0" y="-4.285714285714221" />
+              <point x="629.0" y="1550.8949608069033" />
+              <point x="-40.0" y="10.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-spi:jar:1.0-SP1">
+              <point x="67.0" y="5.625" />
+              <point x="351.0" y="682.2399758290419" />
+              <point x="431.0" y="861.7399758290419" />
+              <point x="-40.5" y="7.5" />
+            </edge>
+            <edge source="org.glassfish.web:jstl-impl:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2">
+              <point x="39.0" y="10.0" />
+              <point x="351.0" y="1239.239975829042" />
+              <point x="431.0" y="1284.239975829042" />
+              <point x="-35.5" y="-7.5" />
+            </edge>
+            <edge source="org.glassfish:javax.management.j2ee:jar:3.0.1" target="org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1">
+              <point x="83.5" y="-0.0" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.resource:jar:3.0.1">
+              <point x="40.0" y="-12.58064516129025" />
+              <point x="160.0" y="154.99999999999977" />
+              <point x="-57.5" y="-0.0" />
+            </edge>
+            <edge source="org.glassfish:javax.security.jacc:jar:3.0.1" target="org.glassfish:javax.servlet:jar:3.0.1">
+              <point x="66.5" y="-0.0" />
+              <point x="351.0" y="949.2399758290419" />
+              <point x="-51.0" y="7.5" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.security.jacc:jar:3.0.1">
+              <point x="40.0" y="-3.870967741935374" />
+              <point x="160.0" y="949.2399758290419" />
+              <point x="-66.5" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/com.google.collections:google-collections:jar:1.0">
+              <point x="67.0" y="-5.625" />
+              <point x="351.0" y="670.9899758290419" />
+              <point x="431.0" y="522.1149758290419" />
+              <point x="-70.0" y="-7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10">
+              <point x="45.0" y="4.5" />
+              <point x="549.0" y="615.195556044999" />
+              <point x="629.0" y="696.1430802159568" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+              <point x="40.0" y="9.677419354838776" />
+              <point x="160.0" y="1782.6820276497692" />
+              <point x="549.0" y="1782.6820276497692" />
+              <point x="629.0" y="1690.8949608069033" />
+              <point x="-77.5" y="10.0" />
+            </edge>
+            <edge source="javax.mail:mail:jar:1.4.3" target="javax.mail:mail:jar:1.4.3/javax.activation:activation:jar:1.1">
+              <point x="28.0" y="-0.0" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-c3p0:jar:4.1.12.Final" target="org.hibernate:hibernate-c3p0:jar:4.1.12.Final/org.hibernate:hibernate-core:jar:4.1.12.Final">
+              <point x="60.0" y="-10.0" />
+              <point x="351.0" y="1875.9320276497692" />
+              <point x="-59.0" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11">
+              <point x="45.0" y="-13.5" />
+              <point x="549.0" y="597.195556044999" />
+              <point x="629.0" y="467.1149758290419" />
+              <point x="-66.0" y="7.5" />
+            </edge>
+            <edge source="dom4j:dom4j:jar:1.6.1" target="dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2">
+              <point x="34.5" y="-0.0" />
+              <point x="-40.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final" target="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2">
+              <point x="111.0" y="-0.0" />
+              <point x="-56.5" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="antlr:antlr:jar:2.7.7">
+              <point x="40.0" y="1.9354838709678006" />
+              <point x="160.0" y="1339.489975829042" />
+              <point x="-29.0" y="-7.5" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.jms:jar:3.0.1">
+              <point x="40.0" y="-7.741935483870975" />
+              <point x="160.0" y="536.6149758290419" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+            <edge source="org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1" target="org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1/org.glassfish:javax.annotation:jar:3.0.1">
+              <point x="41.0" y="7.5" />
+              <point x="-63.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+              <point x="87.5" y="12.85714285714289" />
+              <point x="431.0" y="1770.8605990783408" />
+              <point x="549.0" y="1770.8605990783408" />
+              <point x="629.0" y="1865.5356493403806" />
+              <point x="-56.5" y="-3.75" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+              <point x="59.0" y="-0.0" />
+              <point x="-104.5" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-spi:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1">
+              <point x="40.5" y="-0.0" />
+              <point x="851.0" y="854.2399758290419" />
+              <point x="931.0" y="824.7680802159568" />
+              <point x="-36.0" y="3.75" />
+            </edge>
+            <edge source="org.hibernate:hibernate-c3p0:jar:4.1.12.Final" target="org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+              <point x="60.0" y="10.0" />
+              <point x="351.0" y="1895.9320276497692" />
+              <point x="431.0" y="1903.6820276497692" />
+              <point x="549.0" y="1903.6820276497692" />
+              <point x="629.0" y="1873.0356493403806" />
+              <point x="-56.5" y="3.75" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+              <point x="40.0" y="6.774193548387075" />
+              <point x="160.0" y="1490.0060399159665" />
+              <point x="549.0" y="1490.0060399159665" />
+              <point x="-104.5" y="-10.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-c3p0:jar:4.1.12.Final" target="org.hibernate:hibernate-c3p0:jar:4.1.12.Final/c3p0:c3p0:jar:0.9.1">
+              <point x="60.0" y="-0.0" />
+              <point x="351.0" y="1885.9320276497692" />
+              <point x="431.0" y="1878.1820276497692" />
+              <point x="-30.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="antlr:antlr:jar:2.7.7">
+              <point x="59.0" y="-12.85714285714289" />
+              <point x="629.0" y="1354.489975829042" />
+              <point x="-29.0" y="7.5" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.6">
+              <point x="40.0" y="-6.774193548387075" />
+              <point x="160.0" y="606.6149758290419" />
+              <point x="-78.5" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final">
+              <point x="40.0" y="8.709677419354875" />
+              <point x="-87.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="dom4j:dom4j:jar:1.6.1">
+              <point x="59.0" y="-8.571428571428669" />
+              <point x="629.0" y="1480.8949608069033" />
+              <point x="-34.5" y="10.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1">
+              <point x="67.0" y="9.375" />
+              <point x="351.0" y="685.9899758290419" />
+              <point x="431.0" y="889.6874999999998" />
+              <point x="851.0" y="889.6874999999998" />
+              <point x="931.0" y="832.2680802159568" />
+              <point x="-36.0" y="11.25" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-api:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1">
+              <point x="41.0" y="-0.0" />
+              <point x="851.0" y="784.2399758290419" />
+              <point x="931.0" y="817.2680802159568" />
+              <point x="-36.0" y="-3.75" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="javax.ws.rs:jsr311-api:jar:1.1.1">
+              <point x="40.0" y="12.58064516129025" />
+              <point x="160.0" y="1942.4320276497692" />
+              <point x="-45.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.security.auth.message:jar:3.0.1">
+              <point x="40.0" y="5.8064516129031745" />
+              <point x="-95.5" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="40.0" y="-14.51612903225805" />
+              <point x="160.0" y="15.0" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+              <point x="59.0" y="4.285714285714221" />
+              <point x="629.0" y="1670.8949608069033" />
+              <point x="-77.5" y="-10.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+              <point x="40.0" y="13.54838709677415" />
+              <point x="160.0" y="1967.9320276497692" />
+              <point x="549.0" y="1967.9320276497692" />
+              <point x="629.0" y="1880.5356493403806" />
+              <point x="-56.5" y="11.25" />
+            </edge>
+            <edge source="org.glassfish:javax.management.j2ee:jar:3.0.1/org.glassfish:javax.ejb:jar:3.0.1" target="org.glassfish:javax.resource:jar:3.0.1/org.glassfish:javax.transaction:jar:3.0.1">
+              <point x="41.0" y="-7.5" />
+              <point x="549.0" y="242.99999999999977" />
+              <point x="629.0" y="169.99999999999977" />
+              <point x="-64.0" y="7.5" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="dom4j:dom4j:jar:1.6.1">
+              <point x="40.0" y="2.903225806451701" />
+              <point x="160.0" y="1368.0382979804829" />
+              <point x="549.0" y="1368.0382979804829" />
+              <point x="629.0" y="1460.8949608069033" />
+              <point x="-34.5" y="-10.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.servlet.jsp:jar:3.0.1">
+              <point x="40.0" y="-0.9677419354839003" />
+              <point x="160.0" y="1159.239975829042" />
+              <point x="-61.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.eclipse.persistence:javax.persistence:jar:2.0.0">
+              <point x="40.0" y="-1.9354838709678006" />
+              <point x="160.0" y="1089.239975829042" />
+              <point x="-65.0" y="-0.0" />
+            </edge>
+            <edge source="org.glassfish.web:jstl-impl:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet:servlet-api:jar:2.5">
+              <point x="39.0" y="-0.0" />
+              <point x="549.0" y="1229.239975829042" />
+              <point x="629.0" y="1266.959476935936" />
+              <point x="-46.5" y="-7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11/org.slf4j:slf4j-api:jar:1.5.6">
+              <point x="66.0" y="-7.5" />
+              <point x="851.0" y="452.1149758290419" />
+              <point x="931.0" y="421.52197693593587" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate:hibernate-c3p0:jar:4.1.12.Final">
+              <point x="40.0" y="10.645161290322676" />
+              <point x="160.0" y="1885.9320276497692" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="commons-fileupload:commons-fileupload:jar:1.3.1" target="commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2">
+              <point x="76.0" y="-0.0" />
+              <point x="-52.5" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-spi:jar:1.0-SP1">
+              <point x="45.0" y="13.5" />
+              <point x="549.0" y="624.195556044999" />
+              <point x="629.0" y="846.7399758290419" />
+              <point x="-40.5" y="-7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/org.jboss.interceptor:jboss-interceptor-api:jar:1.1">
+              <point x="45.0" y="1.5" />
+              <point x="549.0" y="612.195556044999" />
+              <point x="629.0" y="624.8649758290419" />
+              <point x="1044.0" y="624.8649758290419" />
+              <point x="-77.5" y="-7.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.hibernate:hibernate-core:jar:4.1.4.Final">
+              <point x="87.5" y="-4.285714285714221" />
+              <point x="-59.0" y="7.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+              <point x="87.5" y="4.285714285714221" />
+              <point x="431.0" y="1676.109246521189" />
+              <point x="549.0" y="1676.109246521189" />
+              <point x="629.0" y="1680.8949608069033" />
+              <point x="-77.5" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.javassist:javassist:jar:3.15.0-GA">
+              <point x="40.0" y="3.870967741935374" />
+              <point x="160.0" y="1369.0060399159665" />
+              <point x="549.0" y="1369.0060399159665" />
+              <point x="629.0" y="1530.8949608069033" />
+              <point x="-40.0" y="-10.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/javax.annotation:jsr250-api:jar:1.0">
+              <point x="36.0" y="-10.0" />
+              <point x="1044.0" y="811.0180802159568" />
+              <point x="1124.0" y="579.3649758290419" />
+              <point x="-45.0" y="7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11">
+              <point x="67.0" y="-9.375" />
+              <point x="351.0" y="667.2399758290419" />
+              <point x="431.0" y="452.1149758290419" />
+              <point x="-66.0" y="-7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.interceptor:jboss-interceptor:jar:1.0.0-CR11" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javassist:javassist:jar:3.11.0.GA">
+              <point x="66.0" y="7.5" />
+              <point x="851.0" y="467.1149758290419" />
+              <point x="931.0" y="503.02197693593587" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-api:jar:1.0-SP1">
+              <point x="67.0" y="1.875" />
+              <point x="351.0" y="678.4899758290419" />
+              <point x="431.0" y="791.7399758290419" />
+              <point x="-41.0" y="7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1">
+              <point x="45.0" y="7.5" />
+              <point x="549.0" y="618.195556044999" />
+              <point x="629.0" y="730.195556044999" />
+              <point x="851.0" y="730.195556044999" />
+              <point x="931.0" y="809.7680802159568" />
+              <point x="-36.0" y="-11.25" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+              <point x="40.0" y="11.612903225806349" />
+              <point x="160.0" y="1916.9320276497692" />
+              <point x="549.0" y="1916.9320276497692" />
+              <point x="-111.0" y="10.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="javax.xml.bind:jaxb-api-osgi:jar:2.2.1">
+              <point x="40.0" y="-2.903225806451701" />
+              <point x="160.0" y="1019.2399758290419" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+            <edge source="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet:servlet-api:jar:2.5">
+              <point x="35.5" y="7.5" />
+              <point x="549.0" y="1299.239975829042" />
+              <point x="629.0" y="1281.959476935936" />
+              <point x="-46.5" y="7.5" />
+            </edge>
+            <edge source="org.glassfish:javax.resource:jar:3.0.1" target="org.glassfish:javax.resource:jar:3.0.1/org.glassfish:javax.transaction:jar:3.0.1">
+              <point x="57.5" y="-0.0" />
+              <point x="-64.0" y="-7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javassist:javassist:jar:3.11.0.GA">
+              <point x="67.0" y="-13.125" />
+              <point x="351.0" y="663.4899758290419" />
+              <point x="431.0" y="434.1149758290419" />
+              <point x="851.0" y="434.1149758290419" />
+              <point x="931.0" y="493.02197693593587" />
+              <point x="-40.0" y="-10.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.1">
+              <point x="40.0" y="-13.54838709677415" />
+              <point x="160.0" y="84.99999999999977" />
+              <point x="-76.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.1">
+              <point x="40.0" y="0.9677419354839003" />
+              <point x="160.0" y="1299.239975829042" />
+              <point x="-70.5" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.enterprise.deploy:jar:3.0.1">
+              <point x="40.0" y="-9.677419354838776" />
+              <point x="160.0" y="320.4999999999998" />
+              <point x="-83.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.servlet:jar:3.0.1">
+              <point x="40.0" y="-4.838709677419274" />
+              <point x="160.0" y="923.7399758290419" />
+              <point x="351.0" y="923.7399758290419" />
+              <point x="-51.0" y="-7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/javax.annotation:jsr250-api:jar:1.0">
+              <point x="45.0" y="-4.5" />
+              <point x="549.0" y="606.195556044999" />
+              <point x="629.0" y="564.3649758290419" />
+              <point x="-45.0" y="-7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10/ch.qos.cal10n:cal10n-api:jar:0.7.2">
+              <point x="38.5" y="-7.5" />
+              <point x="851.0" y="688.6430802159568" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.management.j2ee:jar:3.0.1">
+              <point x="40.0" y="-10.645161290322676" />
+              <point x="-83.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.4.Final" target="org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+              <point x="59.0" y="12.85714285714289" />
+              <point x="629.0" y="1858.0356493403806" />
+              <point x="-56.5" y="-11.25" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3/org.slf4j:slf4j-ext:jar:1.5.10/org.slf4j:slf4j-api:jar:1.5.10">
+              <point x="38.5" y="7.5" />
+              <point x="851.0" y="703.6430802159568" />
+              <point x="931.0" y="720.3649758290419" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:javax.servlet.jsp.jstl:jar:3.0.1">
+              <point x="40.0" y="-11.612903225806349" />
+              <point x="160.0" y="180.49999999999977" />
+              <point x="-70.5" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javassist:javassist:jar:3.11.0.GA">
+              <point x="45.0" y="-7.5" />
+              <point x="549.0" y="603.195556044999" />
+              <point x="629.0" y="555.1149758290419" />
+              <point x="851.0" y="555.1149758290419" />
+              <point x="931.0" y="513.0219769359359" />
+              <point x="-40.0" y="10.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="javax.mail:mail:jar:1.4.3">
+              <point x="40.0" y="-8.709677419354875" />
+              <point x="160.0" y="390.4999999999998" />
+              <point x="-28.0" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-api:jar:1.0-SP1">
+              <point x="45.0" y="10.5" />
+              <point x="549.0" y="621.195556044999" />
+              <point x="629.0" y="776.7399758290419" />
+              <point x="-41.0" y="-7.5" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.hibernate:hibernate-core:jar:4.1.4.Final">
+              <point x="40.0" y="7.741935483870975" />
+              <point x="160.0" y="1595.6449608069033" />
+              <point x="351.0" y="1595.6449608069033" />
+              <point x="-59.0" y="-7.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+              <point x="87.5" y="-0.0" />
+              <point x="431.0" y="1656.5927419354837" />
+              <point x="549.0" y="1656.5927419354837" />
+              <point x="-104.5" y="10.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+              <point x="87.5" y="8.571428571428669" />
+              <point x="431.0" y="1735.5927419354837" />
+              <point x="549.0" y="1735.5927419354837" />
+              <point x="-111.0" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.inject:javax.inject:jar:1">
+              <point x="36.0" y="10.0" />
+              <point x="1044.0" y="831.0180802159568" />
+              <point x="1124.0" y="878.4374999999998" />
+              <point x="-47.0" y="-7.5" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish:bean-validator:jar:3.0-JBoss-4.0.2">
+              <point x="40.0" y="4.838709677419274" />
+              <point x="160.0" y="1394.5060399159665" />
+              <point x="-58.5" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="javax.xml:webservices-api-osgi:jar:2.0.1">
+              <point x="40.0" y="14.51612903225805" />
+              <point x="160.0" y="1993.4320276497692" />
+              <point x="-77.5" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.inject:javax.inject:jar:1">
+              <point x="67.0" y="13.125" />
+              <point x="351.0" y="689.7399758290419" />
+              <point x="431.0" y="910.9899758290419" />
+              <point x="1044.0" y="910.9899758290419" />
+              <point x="1124.0" y="893.4374999999998" />
+              <point x="-47.0" y="7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3">
+              <point x="67.0" y="-1.875" />
+              <point x="351.0" y="674.7399758290419" />
+              <point x="431.0" y="610.695556044999" />
+              <point x="-45.0" y="-0.0" />
+            </edge>
+            <edge source="MyClass:MyClass:0.0.1-SNAPSHOT" target="org.glassfish.web:jstl-impl:jar:1.2">
+              <point x="40.0" y="-0.0" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.4.Final" target="org.javassist:javassist:jar:3.15.0-GA">
+              <point x="87.5" y="-8.571428571428669" />
+              <point x="431.0" y="1572.3113394551372" />
+              <point x="549.0" y="1572.3113394551372" />
+              <point x="629.0" y="1540.8949608069033" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp:jsp-api:jar:2.1">
+              <point x="35.5" y="-7.5" />
+              <point x="549.0" y="1284.239975829042" />
+              <point x="629.0" y="1211.959476935936" />
+              <point x="-36.0" y="7.5" />
+            </edge>
+            <edge source="org.glassfish.web:jstl-impl:jar:1.2" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp:jsp-api:jar:2.1">
+              <point x="39.0" y="-10.0" />
+              <point x="351.0" y="1219.239975829042" />
+              <point x="431.0" y="1196.959476935936" />
+              <point x="-36.0" y="-7.5" />
+            </edge>
+            <edge source="org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.1" target="org.glassfish.web:jstl-impl:jar:1.2/javax.servlet.jsp.jstl:jstl-api:jar:1.2">
+              <point x="70.5" y="-0.0" />
+              <point x="-35.5" y="7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/org.jboss.weld:weld-core:jar:1.0.1-SP3" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/com.google.collections:google-collections:jar:1.0">
+              <point x="45.0" y="-10.5" />
+              <point x="549.0" y="600.195556044999" />
+              <point x="629.0" y="537.1149758290419" />
+              <point x="-70.0" y="7.5" />
+            </edge>
+            <edge source="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1" target="org.jboss.weld:weld-osgi-bundle:jar:1.0.1-SP3/javax.enterprise:cdi-api:jar:1.0-SP1/org.jboss.interceptor:jboss-interceptor-api:jar:1.1">
+              <point x="36.0" y="-0.0" />
+              <point x="1044.0" y="821.0180802159568" />
+              <point x="-77.5" y="7.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.3042284459088413" x="-27.7617328519857" y="778.8808664259927" />
+          <SelectedNodes>
+            <node>org.hibernate:hibernate-entitymanager:jar:4.1.4.Final</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zxy/dao/LoginDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.myhibernatedata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.7/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1339" column="23" lean-forward="false" selection-start-line="1339" selection-start-column="23" selection-end-line="1339" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.7/src.zip!/java/util/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="1241" column="0" lean-forward="false" selection-start-line="1241" selection-start-column="0" selection-end-line="1241" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.7/src.zip!/java/text/RuleBasedBreakIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="456" column="9" lean-forward="true" selection-start-line="456" selection-start-column="9" selection-end-line="456" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.7/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="2048" column="33" lean-forward="false" selection-start-line="2048" selection-start-column="33" selection-end-line="2048" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/internal/util/ConfigHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zxy/model/Userinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hbm/Userinfo.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.4.Final/hibernate-core-4.1.4.Final.jar!/org/hibernate/cfg/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47484">
+          <caret line="137" column="73" lean-forward="true" selection-start-line="137" selection-start-column="73" selection-end-line="137" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zxy/util/HibernateSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="23" column="87" lean-forward="true" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="193" column="49" lean-forward="true" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="49" />
+        <state relative-caret-position="140">
+          <caret line="136" column="30" lean-forward="true" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>MyClass:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MyClass</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
